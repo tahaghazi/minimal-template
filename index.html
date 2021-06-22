@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Kasper</title>
+  <meta name="application-name" content="Bondi" />
+  <meta name="description" content="HTML CSS Web Template" />
+  <meta name="author" content="Taha Ghazi" />
+  <meta name="keywords" content="HTML, CSS, Web, Template" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./assets/css/normalize.css" />
+
+  <!--- Fontawesome -->
+  <link rel="stylesheet" href="./assets/css/all.min.css" />
+  <!-- Main Style File -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Start Header-->
+  <header>
+    <div class="container">
+      <img class="logo" src="./assets/images/logo.png" alt="" />
+      <nav>
+        <i onclick="myFunction()" class="menu fas fa-bars"></i>
+        <ul id="links">
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Blog">Blog</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header-->
+  <!-- Start Landing-->
+
+  <div class="landing">
+    <div class="container">
+      <div class="image">
+        <img src="./assets/images/landing.jpg" alt="" />
+      </div>
+      <div class="text">
+        <div>
+          <h1>hello !!!</h1>
+          <h1>we are creative digital agency.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+            pariatur, vero consequatur qui facilis optio molestias.
+          </p>
+          <a href="mailto:tahaghazt164@gmail.com" class="btn">send message</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Landing-->
+  <!-- Start Portfoilio-->
+
+  <div  class="portfolio">
+    <div class="container">
+      <div id="Portfolio" class="main-heading">
+        <h1>work showcase.</h1>
+      </div>
+      <div class="filter">
+        <div class="filtering">
+          <ul>
+            <li class="active"><a href="#">all</a></li>
+            <li><a href="#">design</a></li>
+            <li><a href="#">web</a></li>
+            <li><a href="#">writing</a></li>
+          </ul>
+        </div>
+        <div class="sorting">
+          <select>
+            <option>most rating</option>
+            <option>most view</option>
+            <option>most popular</option>
+          </select>
+        </div>
+      </div>
+      <div class="grid-portfolio">
+        <div class="box ">
+          <img src="./assets/images/pexels-tranmautritam-326502.jpg" alt="">
+          <div class="caption">
+            <h3>art work</h3>
+            <p>magic</p>
+          </div>
+        </div>
+        <div class="box big">
+          <img src="./assets/images/portfolio-3.jpg" alt="">
+          <div class="caption">
+            <h3>art work</h3>
+            <p>magic</p>
+          </div>
+        </div>
+        <div class="box ">
+          <img src="./assets/images/porfolio-1.jpeg" alt="">
+          <div class="caption">
+            <h3>art work</h3>
+            <p>magic</p>
+          </div>
+        </div>
+        <div class="box big">
+          <img src="./assets/images/pexels-evie-shaffer-2395251.jpg" alt="">
+          <div class="caption">
+            <h3>art work</h3>
+            <p>magic</p>
+          </div>
+        </div>
+        <div class="box big">
+          <img src="./assets/images/porfolio.jpeg" alt="">
+          <div class="caption">
+            <h3>art work</h3>
+            <p>magic</p>
+          </div>
+        </div>
+        <div class="box ">
+          <img src="./assets/images/pexels-vlada-karpovich-4050415.jpg" alt="">
+          <div class="caption">
+            <h3>art work</h3>
+            <p>magic</p>
+          </div>
+        </div>
+      </div>
+      <button class="btn">Show more</button>
+    </div>
+  </div>
+  <!-- End Portfoilio-->
+
+  <!-- Start Logos-->
+  <div class="logos">
+    <div class="container">
+      <ul>
+        <li><img src="./assets/images/logos/1.png" alt=""></li>
+        <li><img src="./assets/images/logos/2.png" alt=""></li>
+        <li><img src="./assets/images/logos/3.png" alt=""></li>
+        <li><img src="./assets/images/logos/4.png" alt=""></li>
+        <li><img src="./assets/images/logos/5.png" alt=""></li>
+        <li><img src="./assets/images/logos/6.png" alt=""></li>
+      </ul>
+    </div>
+  </div>
+  <!-- End Logos-->
+
+  <!-- Start About-->
+  <div  class="about">
+    <div class="container">
+      <div id="About" class="main-heading">
+        <h1>about us.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora cumque accusamus ipsa quia, voluptatem,
+          laboriosam ipsam quam earum assumenda .</p>
+
+      </div>
+      <div class="about-boxes">
+        <div class="team">
+          <div class="box"><img width="300px" src="./assets/images/team-1.jpg" alt="">
+            <div class="text">
+              <h4>mohamed ali</h4>
+              <p>web developer</p>
+            </div>
+
+          </div>
+          <div class="box"><img width="300px" src="./assets/images/team-2.jpg" alt="">
+            <div class="text">
+              <h4>lara croft</h4>
+              <p>web designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="little-about">
+          <h4> little about us</h4>
+          <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, quisquam odit. Delectus ratione molestiae
+            vel earum incidunt excepturi quo facilis.</p>
+          <a>read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- End About-->
+
+    <!-- Start Blog-->
+    <div  class="blog">
+      <div class="container">
+        <div id="Blog" class="main-heading">
+          <h1> our blog.</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora cumque accusamus ipsa quia, voluptatem,
+            laboriosam ipsam quam earum assumenda .</p>
+  
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="image"><img width="400px" src="./assets/images/blog-1.jpg" alt=""></div>
+            <div class="text">
+              <h4>super blog article</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  nihil minus rerum</p>
+              <span>20 may 2020</span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image"><img width="400px" src="./assets/images/blog-2.jpg" alt=""></div>
+            <div class="text">
+              <h4>super blog article</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  nihil minus rerum</p>
+              <span>20 may 2020</span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image"><img width="400px" src="./assets/images/blog-3.jpg" alt=""></div>
+            <div class="text">
+              <h4>super blog article</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  nihil minus rerum</p>
+              <span>20 may 2020</span>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  <!-- End Blog-->
+      <!-- Start Contact-->
+      <div class="contact">
+        <div class="container">
+          <div id="Contact"  class="main-heading">
+            <h1> contact us.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora cumque accusamus ipsa quia, voluptatem,
+              laboriosam ipsam quam earum assumenda .</p>
+    
+          </div>
+          <div class="contact-grid">
+            <div class="contact-div">
+              <h2>send message</h3>
+
+            <div class="form">
+              <div class="input">
+                <input placeholder="Your Name" id="name" type="text">
+              </div>
+              <div class="input">
+                <input placeholder="Your Email" id="email" type="email">
+              </div>
+              <div  class="input">
+                <textarea placeholder="Your Message" id="message"></textarea>
+              </div>
+              <button class="btn" type="submit">submit</button>
+  
+            </div>
+            </div>
+            <div class="image"><img src="./assets/images/contact.jpg" alt="">
+
+          </div>
+          </div>
+          <div class="icons">
+            <div class="icon">
+              <i class="fas fa-mobile-alt"></i>
+                            <p><a href="tel:+201153011260">+201153011260</a></p>
+            </div>
+            <div class="icon">
+              <i class="far fa-envelope"></i>
+                   <p><a href="mailto:tahaghazt1642gmail.com">tahaghazt1642gmail.com</a></p>
+            </div>
+            <div class="icon">
+              <i class="fas fa-map-marker-alt"></i>
+                            <p>123 street,school</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    <!-- End Contact-->
+    <div class="social">
+      <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+
+<footer>
+<div>  <img src="./assets/images/logo-white.png" alt="">
+  <p>&copy;2020-mint all right reseved</p></div>
+  <a href="#">back top <i class="fas fa-angle-up"></i></a>
+</footer>
+
+
+</body>
+<script>
+  function myFunction() {
+    document.getElementById("links").classList.toggle("active-ul");
+  }
+  window.onclick = function (event) {
+    if (!event.target.matches(".menu")) {
+      var dropdowns = document.getElementsByClassName("links");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains("active-ul")) {
+          openDropdown.classList.remove("active-ul");
+        }
+      }
+    }
+  };
+</script>
+
+</html>
